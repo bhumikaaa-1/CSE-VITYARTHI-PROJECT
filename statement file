@@ -1,0 +1,55 @@
+Project Statement – EasyBook Movie Ticket Booking System
+
+#Problem Statement
+In today's fast-paced world, moviegoers often face inconvenience while booking tickets through traditional methods or overcrowded online platforms. There is a need for a simple, fast, and user-friendly system that allows users to view available movie shows, book tickets instantly, check their bookings, and cancel them if required — all from a single interface without complexity or dependency on third-party services.
+
+The current console-based solution addresses this need by providing a lightweight, menu-driven movie ticket booking system that simulates real-world functionality using basic data structures and user authentication.
+
+#Scope of the Project
+The project is a console-based Movie Ticket Booking System developed using Python. It demonstrates core programming concepts while providing essential ticketing functionality. The scope includes:
+
+- User registration and login authentication
+- Viewing real-time availability of movie shows
+- Booking one or more tickets with automatic seat deduction
+- Viewing and cancelling personal bookings with seat restoration
+- In-memory data persistence during runtime
+- Clean and interactive text-based user interface
+
+Out of scope (intentionally excluded for simplicity):
+- Persistent storage (database/file)
+- Graphical User Interface (GUI)
+- Online payment integration
+- Admin module
+- Seat selection matrix
+- Multi-theater support
+
+# Target Users
+1. Students learning Python programming (primary audience)
+2. Beginners exploring console application development
+3. Individuals wanting a simple personal movie booking simulator
+4. Academic project submitters (college/school students)
+5. Anyone interested in understanding the logic behind ticket booking systems
+
+#High-Level Features
+1. User Registration & Login  
+   Secure signup and login system with username-password authentication.
+
+2. View Available Shows  
+   Displays all upcoming movie shows with movie name, date, time, and remaining seats.
+
+3. Book Tickets  
+   Allows selection of show by ID and number of tickets with real-time seat availability check.
+
+4. My Bookings  
+   Displays complete booking history of the logged-in user with full details.
+
+5. Cancel Booking  
+   Enables cancellation of any previous booking and automatically restores the seats.
+
+6. Real-time Seat Management  
+   Seats are dynamically updated on booking and cancellation to prevent over-booking.
+
+7. User-Friendly Interface  
+   Clean menus, formatted outputs, screen clearing, and guided navigation using numbered choices.
+
+
